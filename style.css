@@ -1,0 +1,268 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: poppins;
+}
+
+.main{
+
+    height: 100%;
+    width: 100%;
+    background-color: #e2e3f8;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen{
+    height: 590px;
+    width: 21%;
+    background-color: white;
+    border-radius: 29px;
+}
+.nav{
+    height: 58px;
+    width: 100%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  
+    /* background-color: aqua; */
+
+}
+.nav i{
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
+   
+}
+.profile{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%; 
+    background-color: #7e4dff; 
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-position: center;   
+    margin-top: 19px;
+    margin-right: 12px;
+}
+
+.maincard{
+    height: 155px;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card{
+
+    height: 150px;
+    width: 85%;
+    background: rgb(126,79,253);
+    background: linear-gradient(18deg, rgb(119, 72, 250) 0%, rgba(191,125,250,1) 45%, rgb(117, 66, 255) 100%);
+    border-radius: 18px;
+    margin-top: 20px;
+}
+.text h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 16px;
+    color: white;
+}
+.chip img{
+    height: 45px; 
+    width: 70px;
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+.box{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+  
+
+}
+
+.boxa{
+    width: 38px;
+    height: 7px;
+    background-color: white;
+    margin-top: 3px;
+}
+
+.riya{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 25px;
+    margin-top: 8px;
+    
+   
+
+}
+
+.botbox{
+    width: 45px;
+    height: 17px;
+    background-color:#f0d191;
+}
+.gol{
+    width: 100%;
+    height: 70px;
+    /* background-color: violet; */
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12px;
+}
+.one{
+
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:#8e46ff;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.two{
+
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:#8e46ff;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .two i{
+    font-weight: 400;
+} */
+
+.three{
+
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:#8e46ff;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four{
+
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:#8e46ff;
+    color: white;   
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.heading{
+    height: 20px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;  
+    margin-left: 26px;
+    
+}
+.col{
+    height: 225px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col1{
+
+    height: 60px;
+    width: 80%;
+    background-color: #f5effb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.aa{
+    height: 45px;
+    width: 23%;
+    background-color:#8843ff;
+    border-radius: 11px;
+    margin-left: 8px;
+    color: white;
+    font-size: 35px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .aa i{
+  font-weight: lighter;
+} */
+
+.bb{
+    margin-left: 12px;
+}
+
+.bb h5{
+    font-size: 12px;    
+}
+
+.bb p{
+    font-size: 10px;
+    color: rgb(112, 112, 112);
+}
+
+.last{
+ 
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    color: rgb(94, 94, 94);
+    
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
